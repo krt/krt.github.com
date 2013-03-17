@@ -4,7 +4,7 @@
   <title><![CDATA[kurasino techno]]></title>
   <link href="http://krt.github.com/atom.xml" rel="self"/>
   <link href="http://krt.github.com/"/>
-  <updated>2013-03-18T01:56:25+09:00</updated>
+  <updated>2013-03-18T01:58:29+09:00</updated>
   <id>http://krt.github.com/</id>
   <author>
     <name><![CDATA[Masato Yamaguchi a.k.a Karate Master]]></name>
@@ -14,17 +14,18 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test posting]]></title>
+    <title type="html"><![CDATA[test posting　投稿テスト]]></title>
     <link href="http://krt.github.com/blog/2013/03/18/test-post/"/>
     <updated>2013-03-18T01:23:00+09:00</updated>
     <id>http://krt.github.com/blog/2013/03/18/test-post</id>
     <content type="html"><![CDATA[<h1>テスト投稿をしてみるよ</h1>
 
-<p>てすとてすとー<br/>
- - a
- - b</p>
+<p>てすとてすとー</p>
 
-<p>テスト的な<del>ポスト的な</del>何かを<em>*投稿してみる</em></p>
+<p> -a
+ -b</p>
+
+<p>テスト的な<del>ポスト的な</del>何かを<strong>投稿してみる</strong></p>
 ]]></content>
   </entry>
   
