@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[kurasino techno]]></title>
-  <link href="http://krt.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 独り言 | kurasino techno]]></title>
+  <link href="http://krt.github.com/blog/categories/du-riyan/atom.xml" rel="self"/>
   <link href="http://krt.github.com/"/>
   <updated>2013-03-19T01:18:42+09:00</updated>
   <id>http://krt.github.com/</id>
@@ -29,40 +29,6 @@
 <p>が、折角のgithub pages だし、実に７年ぶりくらいのひっそりブログなので、<br/>
 このくらいのカオスに埋もれながらどうでもいい事を書いていくのも楽しいのかもしれないし、有意義な何かがここから生まれるのかもしれない。<br/>
 とりあえず少しずつブログとしての体裁を整えていきながら、markdownの練習をしていくことにする。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[test posting　投稿テスト]]></title>
-    <link href="http://krt.github.com/blog/2013/03/18/test-post/"/>
-    <updated>2013-03-18T01:23:00+09:00</updated>
-    <id>http://krt.github.com/blog/2013/03/18/test-post</id>
-    <content type="html"><![CDATA[<h2>テスト投稿をしてみるよ</h2>
-
-<p>てすとてすとー</p>
-
-<ul>
-<li>a</li>
-<li>b</li>
-</ul>
-
-
-<p>テスト的な<del>ポスト的な</del>何かを<strong>投稿してみる</strong></p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;redcarpet&#39;</span>
-</span><span class='line'><span class="k">def</span> <span class="nf">sample</span>
-</span><span class='line'>  <span class="c1"># some comment...</span>
-</span><span class='line'>  <span class="n">markdown</span> <span class="o">=</span> <span class="no">Redcarpet</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;Hello Oresama&quot;</span><span class="p">)</span>
-</span><span class='line'>  <span class="nb">puts</span> <span class="n">markdown</span><span class="o">.</span><span class="n">to_html</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
 ]]></content>
   </entry>
   
