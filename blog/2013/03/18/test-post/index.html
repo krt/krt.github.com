@@ -10,8 +10,14 @@
 
   
   <meta name="description" content="テスト投稿をしてみるよ てすとてすとー a
-b テスト的なポスト的な何かを投稿してみる def sample # some codes...
-end ">
+b テスト的なポスト的な何かを投稿してみる 1
+2
+3
+4
+5
+6
+require &#39;redcarpet&#39;
+def sample # some comment... markdown = Redcarpet.new(&quot;Hello &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -103,10 +109,20 @@ end ">
 
 <p>テスト的な<del>ポスト的な</del>何かを<strong>投稿してみる</strong></p>
 
-<pre><code>def sample
-  # some codes...
-end
-</code></pre>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;redcarpet&#39;</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">sample</span>
+</span><span class='line'>  <span class="c1"># some comment...</span>
+</span><span class='line'>  <span class="n">markdown</span> <span class="o">=</span> <span class="no">Redcarpet</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;Hello Oresama&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="n">markdown</span><span class="o">.</span><span class="n">to_html</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
 </div>
 
 
