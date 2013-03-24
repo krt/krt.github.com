@@ -4,7 +4,7 @@
   <title><![CDATA[kurasino techno]]></title>
   <link href="http://krt.github.com/atom.xml" rel="self"/>
   <link href="http://krt.github.com/"/>
-  <updated>2013-03-21T00:39:54+09:00</updated>
+  <updated>2013-03-25T01:24:42+09:00</updated>
   <id>http://krt.github.com/</id>
   <author>
     <name><![CDATA[Masato Yamaguchi a.k.a Karate Master]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ブログデザイン少し変更]]></title>
+    <link href="http://krt.github.com/blog/2013/03/25/modified-design-on-my-blog/"/>
+    <updated>2013-03-25T00:43:00+09:00</updated>
+    <id>http://krt.github.com/blog/2013/03/25/modified-design-on-my-blog</id>
+    <content type="html"><![CDATA[<p>octopress デザイン少し変更。<br/>
+まだ仕組みがよく分かってないらしい。<br/>
+以下箇条書きで</p>
+
+<ul>
+<li>.themes 以下のテンプレートのscssファイルをいじっても変更が効かない。<br/>
+いじるんならルートディレクトリのsass以下の該当ファイル。<strong>豆知識な。</strong></li>
+<li>それとsassってクソ便利ですね。初めて弄ったが目から鱗。</li>
+<li>それから、プロジェクトファイルからディレクトリごと語句検索かけてもパブリッシュ済みのコードが大量に検出される。html/css 事前生成型のブログエンジンもいろいろ考えもんですな。</li>
+<li>仕組み自体はWordPressやらMTやらに比べればいたってシンプルなので潔い。</li>
+<li>rake preview コマンドでプレビューする場合、リロードのタイミングで、ファイルに変更あれば再生成かかる仕組み上、更新を確認するには２回リロードかける必要があるみたい。（タイミングによる）</li>
+</ul>
+
+
+<p>以上。</p>
+
+<p>追記: あ、リスト表示のデザイン良くないな</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sennheiser HD25 のイヤーパッド交換]]></title>

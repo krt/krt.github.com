@@ -9,8 +9,11 @@
   <meta name="author" content="Masato Yamaguchi a.k.a Karate Master">
 
   
-  <meta name="description" content="春分の日なので会社は休み。長いこと、会社員をやってなかったせいで、休日に休むとか、なにか別の事をやるとかいう感覚が取り戻せない。本当は仕事のキャッチアップだのその他のプロジェクトのキャッチアップだのやるべきだったのだが 、最近の休日はいつも無意味に過ごしてしまっている。
-唯一の収穫と呼べるものは、 &hellip;">
+  <meta name="description" content="octopress デザイン少し変更。
+まだ仕組みがよく分かってないらしい。
+以下箇条書きで .themes 以下のテンプレートのscssファイルをいじっても変更が効かない。
+いじるんならルートディレクトリのsass以下の該当ファイル。豆知識な。
+それとsassってクソ便利ですね。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -39,6 +42,10 @@
 
 <body   >
   <header role="banner"><hgroup>
+    <h1><a href="/">kurasino techno</a></h1>
+    
+      <h2>ギーキーすぎて俺にゃ無理</h2>
+    
 </hgroup>
 
 </header>
@@ -64,6 +71,58 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/25/modified-design-on-my-blog/">ブログデザイン少し変更</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-25T00:43:00+09:00" pubdate data-updated="true">Mar 25<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>octopress デザイン少し変更。<br/>
+まだ仕組みがよく分かってないらしい。<br/>
+以下箇条書きで</p>
+
+<ul>
+<li>.themes 以下のテンプレートのscssファイルをいじっても変更が効かない。<br/>
+いじるんならルートディレクトリのsass以下の該当ファイル。<strong>豆知識な。</strong></li>
+<li>それとsassってクソ便利ですね。初めて弄ったが目から鱗。</li>
+<li>それから、プロジェクトファイルからディレクトリごと語句検索かけてもパブリッシュ済みのコードが大量に検出される。html/css 事前生成型のブログエンジンもいろいろ考えもんですな。</li>
+<li>仕組み自体はWordPressやらMTやらに比べればいたってシンプルなので潔い。</li>
+<li>rake preview コマンドでプレビューする場合、リロードのタイミングで、ファイルに変更あれば再生成かかる仕組み上、更新を確認するには２回リロードかける必要があるみたい。（タイミングによる）</li>
+</ul>
+
+
+<p>以上。</p>
+
+<p>追記: あ、リスト表示のデザイン良くないな</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -233,8 +292,22 @@ HD25というヘッドフォンは、遮音性が高くポータブルで自分�
   </ul>
 </section>
 <section>
+  <h1>About Me</h1>
+  <p>
+Masato Yamaguchi<br />
+a.k.a. Karate Master <br />
+以前に何をやってた人で、今何をやってる人なのかとか、これから何をしたいのかとか、書き連ねていくとそこそこ面倒なので、そのうち書きます。<br />
+github: krt<br />
+twitter: @krt<br />
+  </p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/25/modified-design-on-my-blog/">ブログデザイン少し変更</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/03/20/replaced-earpads-of-my-headphone/">Sennheiser HD25 のイヤーパッド交換</a>
@@ -253,6 +326,23 @@ HD25というヘッドフォンは、遮音性が高くポータブルで自分�
 
 
 
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("krt", , );
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <p>Follow <a href="http://twitter.com/krt">@krt</a></p>
+  
+</section>
 
 
   
